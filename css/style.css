@@ -1,0 +1,160 @@
+body {
+    width: 900px;
+    margin: auto;
+}
+
+#navMidDiv img,
+#navRightDiv img {
+    width: 30px;
+}
+
+nav {
+    width: 860px;
+    padding: 20px 20px 5px 40px;
+    margin: -8px;
+    height: 70px;
+
+}
+
+div {
+    display: inline-flex;
+}
+
+h1,
+h3 {
+    display: block;
+}
+
+#description {
+    font-size: small;
+}
+
+#title {
+    margin-top: -10px;
+
+
+}
+
+img {
+    margin: 10px 3px 3px 0;
+}
+
+#writtenLogo {
+    width: 110px;
+    height: 47px;
+    padding: 0;
+    margin: 0;
+}
+
+#navRightDiv {
+    margin-right: 0px;
+    width: fit-content;
+
+
+
+}
+
+#navLefttDiv {
+    margin-top: 10px;
+    margin-right: 0px;
+    width: fit-content;
+
+
+
+}
+
+#navMidDiv {
+    margin-left: 40%;
+    width: fit-content;
+}
+
+#iconImage {
+    width: 45px;
+    padding: 0px;
+    margin: 0px;
+}
+
+#borderImg {
+    margin: 10px 20px 10px 20px;
+}
+
+.righIcons {
+    margin-right: 7px;
+}
+
+#divider {
+    background-image: repeating-linear-gradient(45deg, gray, white 1px, gray 1px, white 1px);
+    margin-top: 30px;
+    width: 100%;
+    height: 20px;
+}
+
+#paraTitleDiv {
+    display: block;
+}
+
+#listSection {
+    background-image: url("assets/list-bg.png");
+    height: 300px;
+}
+
+ul {
+    font-size: 25px;
+    list-style-type: none;
+
+}
+
+#rightUl {
+
+    position: relative;
+    left: 400px;
+    top: -143px;
+}
+
+#leftUl {
+    position: relative;
+    left: 50px;
+    top: 50px;
+}
+
+#footerPara {
+    text-align: center;
+    width: 100%;
+}
+
+#footerLogo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#footer {
+    align-content: center;
+}
+
+#recipePara {
+    position: relative;
+    top: -20px;
+    /* margin-bottom: 60px;
+    margin-left: 100px; */
+}
+
+#buttonDiv {
+}
+
+#button {
+    background-color: darkred;
+    height: 60px;
+    margin-top: 30px;
+    color: white;
+    font-weight: bold;
+    margin-left: 20px;
+
+}
+#commentsImage{
+    width: 110px;
+}
+#nameAndTextSection{
+    margin-left: 20px;
+    width: 680px;
+}
