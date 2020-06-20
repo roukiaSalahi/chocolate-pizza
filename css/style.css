@@ -157,10 +157,7 @@ ul {
 #nameAndTextSection{
    margin-left: 20px;
    width: 680px;
-   body {
-      width: 900px;
-      margin: auto;
-  }
+}
   
   #navMidDiv img,
   #navRightDiv img {
@@ -260,6 +257,12 @@ ul {
   ul {
       font-size: 25px;
       list-style-type: none;
+      font-family: 'Exo 2', sans-serif;
+font-family: 'Merriweather', serif;
+font-family: 'MuseoModerno', cursive;
+font-family: 'Slabo 27px', serif;
+font-weight: lighter;
+color: #6c6868;
   
   }
   
@@ -267,7 +270,7 @@ ul {
   
       position: relative;
       left: 400px;
-      top: -143px;
+      top: -160px;
   }
   
   #leftUl {
@@ -279,6 +282,7 @@ ul {
   #footerPara {
       text-align: center;
       width: 100%;
+      color:  #6c6868;
   }
   
   #footerLogo {
@@ -298,16 +302,23 @@ ul {
       margin-left: 100px; */
   }
   
-  #buttonDiv {
-  }
+  /* #buttonDiv {
+  } */
   
   #button {
-      background-color: darkred;
-      height: 60px;
-      margin-top: 30px;
+      background-color: #d35151;
+      height: 47px;
+      margin-top: 44px;
       color: white;
-      font-weight: bold;
-      margin-left: 20px;
+     
+      margin-left:-116px;
+      border: none;
+      padding-left: 25px;
+      padding-right: 25px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      
+      
   
   }
   #commentsImage{
@@ -316,4 +327,30 @@ ul {
   #nameAndTextSection{
       margin-left: 20px;
       width: 680px;
+      color: #6c6868;
+  }
+  #mainParagraph{
+   font-family: 'Merriweather', serif;
+   font-family: 'MuseoModerno', cursive;
+   font-family: 'Slabo 27px', serif;
+   color: #6c6868;
+   
+  }
+  h2{
+   font-family: 'Bebas Neue', cursive;
+font-family: 'Exo 2', sans-serif;
+font-family: 'Merriweather', serif;
+font-family: 'MuseoModerno', cursive;
+font-family: 'Slabo 27px', serif;
+font-weight: bold;
+  }
+#firstpara{
+   font-family: 'Bebas Neue', cursive;
+   font-family: 'Exo 2', sans-serif;
+   font-family: 'Merriweather', serif;
+   font-family: 'MuseoModerno', cursive;
+   font-family: 'Open Sans', sans-serif;
+   font-family: 'Slabo 27px', serif;
+   color: #6c6868;
+   margin-top: -23px;
   }
