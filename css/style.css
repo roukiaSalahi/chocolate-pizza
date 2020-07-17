@@ -11,7 +11,6 @@ body {
 nav {
    width: 860px;
    padding: 20px 20px 5px 40px;
-   margin: -8px;
    height: 70px;
 
 }
@@ -24,15 +23,14 @@ h1,
 h3 {
    display: block;
 }
-
+h2{
+   margin-bottom: 0px;
+}
+#firstpara{
+   margin-top: 0px;
+}
 #description {
    font-size: small;
-}
-
-#title {
-   margin-top: -10px;
-
-
 }
 
 img {
@@ -49,18 +47,12 @@ img {
 #navRightDiv {
    margin-right: 0px;
    width: fit-content;
-
-
-
 }
 
 #navLefttDiv {
    margin-top: 10px;
    margin-right: 0px;
    width: fit-content;
-
-
-
 }
 
 #navMidDiv {
@@ -106,15 +98,14 @@ ul {
 
 #rightUl {
 
-   position: relative;
-   left: 400px;
-   top: -143px;
+   float: right;
+   margin-right: 22px;
 }
 
 #leftUl {
-   position: relative;
-   left: 50px;
-   top: 50px;
+   float: left;
+   margin-left: 35px;
+
 }
 
 #footerPara {
@@ -130,16 +121,6 @@ ul {
 
 #footer {
    align-content: center;
-}
-
-#recipePara {
-   position: relative;
-   top: -20px;
-   /* margin-bottom: 60px;
-   margin-left: 100px; */
-}
-
-#buttonDiv {
 }
 
 #button {
@@ -158,199 +139,3 @@ ul {
    margin-left: 20px;
    width: 680px;
 }
-  
-  #navMidDiv img,
-  #navRightDiv img {
-      width: 30px;
-  }
-  
-  nav {
-      width: 860px;
-      padding: 20px 20px 5px 40px;
-      margin: -8px;
-      height: 70px;
-  
-  }
-  
-  div {
-      display: inline-flex;
-  }
-  
-  h1,
-  h3 {
-      display: block;
-  }
-  
-  #description {
-      font-size: small;
-  }
-  
-  #title {
-      margin-top: -10px;
-  
-  
-  }
-  
-  img {
-      margin: 10px 3px 3px 0;
-  }
-  
-  #writtenLogo {
-      width: 110px;
-      height: 47px;
-      padding: 0;
-      margin: 0;
-  }
-  
-  #navRightDiv {
-      margin-right: 0px;
-      width: fit-content;
-  
-  
-  
-  }
-  
-  #navLefttDiv {
-      margin-top: 10px;
-      margin-right: 0px;
-      width: fit-content;
-  
-  
-  
-  }
-  
-  #navMidDiv {
-      margin-left: 40%;
-      width: fit-content;
-  }
-  
-  #iconImage {
-      width: 45px;
-      padding: 0px;
-      margin: 0px;
-  }
-  
-  #borderImg {
-      margin: 10px 20px 10px 20px;
-  }
-  
-  .righIcons {
-      margin-right: 7px;
-  }
-  
-  #divider {
-      background-image: repeating-linear-gradient(45deg, gray, white 1px, gray 1px, white 1px);
-      margin-top: 30px;
-      width: 100%;
-      height: 20px;
-  }
-  
-  #paraTitleDiv {
-      display: block;
-  }
-  
-  #listSection {
-      background-image: url(../assets/list-bg.png);
-      height: 300px;
-  }
-  
-  ul {
-      font-size: 25px;
-      list-style-type: none;
-      font-family: 'Exo 2', sans-serif;
-font-family: 'Merriweather', serif;
-font-family: 'MuseoModerno', cursive;
-font-family: 'Slabo 27px', serif;
-font-weight: lighter;
-color: #6c6868;
-  
-  }
-  
-  #rightUl {
-  
-      position: relative;
-      left: 400px;
-      top: -160px;
-  }
-  
-  #leftUl {
-      position: relative;
-      left: 50px;
-      top: 50px;
-  }
-  
-  #footerPara {
-      text-align: center;
-      width: 100%;
-      color:  #6c6868;
-  }
-  
-  #footerLogo {
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-  }
-  
-  #footer {
-      align-content: center;
-  }
-  
-  #recipePara {
-      position: relative;
-      top: -20px;
-      /* margin-bottom: 60px;
-      margin-left: 100px; */
-  }
-  
-  /* #buttonDiv {
-  } */
-  
-  #button {
-      background-color: #d35151;
-      height: 47px;
-      margin-top: 44px;
-      color: white;
-     
-      margin-left:-116px;
-      border: none;
-      padding-left: 25px;
-      padding-right: 25px;
-      padding-top: 10px;
-      padding-bottom: 10px;
-      
-      
-  
-  }
-  #commentsImage{
-      width: 110px;
-  }
-  #nameAndTextSection{
-      margin-left: 20px;
-      width: 680px;
-      color: #6c6868;
-  }
-  #mainParagraph{
-   font-family: 'Merriweather', serif;
-   font-family: 'MuseoModerno', cursive;
-   font-family: 'Slabo 27px', serif;
-   color: #6c6868;
-   
-  }
-  h2{
-   font-family: 'Bebas Neue', cursive;
-font-family: 'Exo 2', sans-serif;
-font-family: 'Merriweather', serif;
-font-family: 'MuseoModerno', cursive;
-font-family: 'Slabo 27px', serif;
-font-weight: bold;
-  }
-#firstpara{
-   font-family: 'Bebas Neue', cursive;
-   font-family: 'Exo 2', sans-serif;
-   font-family: 'Merriweather', serif;
-   font-family: 'MuseoModerno', cursive;
-   font-family: 'Open Sans', sans-serif;
-   font-family: 'Slabo 27px', serif;
-   color: #6c6868;
-   margin-top: -23px;
-  }
